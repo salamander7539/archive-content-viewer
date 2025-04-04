@@ -1,0 +1,122 @@
+{
+  "content": [
+    {
+      "name": "root",
+      "content": [
+        {
+          "name": "tmp",
+          "content": [
+            {
+              "name": "pages",
+              "content": [
+                {
+                  "name": "assets",
+                  "content": [
+                    {
+                      "name": "city.jpg",
+                      "size": 1982372
+                    },
+                    {
+                      "name": "roboto-medium.ttf",
+                      "size": 1224372
+                    }
+                  ]
+                },
+                {
+                  "name": "index.html",
+                  "size": 81221
+                },
+                {
+                  "name": "main.js",
+                  "size": 246221
+                },
+                {
+                  "name": "main.css",
+                  "size": 142421
+                }
+              ]
+            },
+            {
+              "name": "README.md",
+              "size": 12856
+            },
+            {
+              "name": "favicon.ico",
+              "size": 3846
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "bin",
+      "content": [
+        {
+          "name": "backups",
+          "content": [
+            {
+              "name": "backup-12-03-25.sql",
+              "size": 452567
+            },
+            {
+              "name": "backup-13-03-25.sql",
+              "size": 412567
+            },
+            {
+              "name": "backup-14-03-25.sql",
+              "size": 462567
+            },
+            {
+              "name": "backup-15-03-25.sql",
+              "size": 952567
+            },
+            {
+              "name": "backup-16-03-25.sql",
+              "size": 392567
+            },
+            {
+              "name": "backup-17-03-25.sql",
+              "size": 692567
+            },
+            {
+              "name": "backup-18-03-25.sql",
+              "size": 592567
+            },
+            {
+              "name": "backup-19-03-25.sql",
+              "size": 552567
+            },
+            {
+              "name": "backup-20-03-25.sql",
+              "size": 122567
+            },
+            {
+              "name": "backup-21-03-25.sql",
+              "size": 492567
+            }
+          ]
+        },
+        {
+          "name": "data.ini",
+          "size": 12856
+        },
+        {
+          "name": "service.bat",
+          "size": 12856
+        },
+        {
+          "name": "webworker.ini",
+          "size": 12856
+        },
+        {
+          "name": "database.sqlite",
+          "size": 18237567
+        },
+        {
+          "name": "dump.sql",
+          "size": 382567
+        }
+      ]
+    }
+  ]
+}
