@@ -1,0 +1,53 @@
+.file-container {
+  width: 300px;
+  background-color: white;
+  border: 2px solid #f3f3f4;
+  box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.06);
+}
+
+.path-container {
+  height: 30px;
+  background-color: #f2f4fa;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+}
+
+img {
+  padding-right: 8px;
+  cursor: pointer;
+}
+
+.file-path {
+  cursor: pointer;
+}
+
+.file-content {
+  height: 300px;
+  padding: 8px;
+  position: relative;
+  overflow-y: auto;
+}
+
+.file {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  & + .file {
+    margin-top: 12px;
+  }
+}
+
+.file-name {
+  max-width: 170px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.size {
+  right: 8px;
+  position: absolute;
+}

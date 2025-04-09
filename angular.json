@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "bread_crumbs_module": {
+    "archive-content-viewer": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -24,7 +24,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/bread_crumbs_module",
+            "outputPath": "dist/archive-content-viewer",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -72,10 +72,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "bread_crumbs_module:build:production"
+              "buildTarget": "archive-content-viewer:build:production"
             },
             "development": {
-              "buildTarget": "bread_crumbs_module:build:development"
+              "buildTarget": "archive-content-viewer:build:development"
             }
           },
           "defaultConfiguration": "development"

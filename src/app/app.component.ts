@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'bread_crumbs_module';
+  title = 'archive-content-viewer';
 }

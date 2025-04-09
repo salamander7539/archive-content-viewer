@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'bread_crumbs_module'`, () => {
+  it(`should have as title 'archive-content-viewer'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('bread_crumbs_module');
+    expect(app.title).toEqual('archive-content-viewer');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, bread_crumbs_module');
+    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, archive-content-viewer');
   });
 });

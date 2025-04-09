@@ -3,12 +3,12 @@ import { Content } from '../../interfaces/files.interface';
 import { HttpService } from '../../services/http.service';
 
 @Component({
-  selector: 'app-bread-crumbs',
+  selector: 'app-content-viewer',
   standalone: false,
-  templateUrl: './bread-crumbs.component.html',
-  styleUrl: './bread-crumbs.component.scss',
+  templateUrl: './content-viewer.component.html',
+  styleUrl: './content-viewer.component.scss',
 })
-export class BreadCrumbsComponent implements OnInit {
+export class ContentViewerComponent implements OnInit {
   contentData?: Content;
   parrentContent?: Content;
   paths: string[] = [];
