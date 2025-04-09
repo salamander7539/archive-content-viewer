@@ -16,10 +16,12 @@
 img {
   padding-right: 8px;
   cursor: pointer;
+  width: 12px;
+  height: 12px;
 }
 
 .file-path {
-  cursor: pointer;
+  margin-bottom: 3px;
 }
 
 .file-content {
@@ -37,6 +39,7 @@ img {
   & + .file {
     margin-top: 12px;
   }
+  cursor: po;
 }
 
 .file-name {

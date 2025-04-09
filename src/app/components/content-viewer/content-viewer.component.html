@@ -1,13 +1,12 @@
 <div class="file-container">
   <div class="path-container">
-    <img
-      *ngIf="paths.length"
-      src="assets/img/left-arrow.png"
-      alt="Arrow back"
-      width="20"
-      height="20"
-      (click)="goBack()"
-    />
+    <div class="arrow-back" width="20" height="20" (click)="goBack()">
+      <img
+        *ngIf="paths.length"
+        src="assets/img/left-arrow.png"
+        alt="Arrow back"
+      />
+    </div>
     <div
       *ngFor="let path of paths"
       class="file-path"
@@ -20,6 +19,7 @@
     <div
       *ngFor="let content of contentData?.content"
       class="file"
+      (click)="goNext(content)"
     >
       <img
         *ngIf="content.size"
@@ -35,7 +35,7 @@
         width="20"
         height="20"
       />
-      <div class="file-name" (click)="goNext(content)">
+      <div class="file-name">
         {{ content.name }}
       </div>
       <div *ngIf="content.size" class="size">
